@@ -2,6 +2,6 @@ go 1.22
 
 use (
 	.
-	drivers/processor
 	drivers/postgres
+	drivers/processor
 )
