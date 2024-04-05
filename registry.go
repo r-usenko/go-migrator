@@ -15,6 +15,7 @@ type IHaveTransaction interface {
 type IDriver interface {
 	GetSources() []any
 	WithCtx(ctx context.Context) context.Context
+	//Name() string
 }
 
 type ITransaction interface {

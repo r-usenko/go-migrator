@@ -1,4 +1,4 @@
-package processor
+package postgres
 
 type Driver struct {
 	sources []any

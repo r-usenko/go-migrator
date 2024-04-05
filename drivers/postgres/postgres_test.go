@@ -1,4 +1,4 @@
-package processor_test
+package postgres_test
 
 import (
 	"github.com/stretchr/testify/assert"
