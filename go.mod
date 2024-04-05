@@ -2,9 +2,6 @@ module github.com/r-usenko/go-migrator
 
 go 1.22
 
-//exclude (
-//	github.com/r-usenko/go-migrator/drivers/postgres latest
-//)
 
 replace (
 	github.com/r-usenko/go-migrator/drivers/postgres => ./drivers/postgres
