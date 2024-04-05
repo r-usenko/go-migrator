@@ -32,5 +32,5 @@ func (m *Driver) GetSources() []any {
 }
 
 func (m *Driver) Name() string {
-	return "processor"
+	return "postgres"
 }
